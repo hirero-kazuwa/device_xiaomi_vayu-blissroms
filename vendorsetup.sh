@@ -13,6 +13,7 @@ echo 'Cloning the sources'
 echo 'Cloning the kernel'
 # Kernel
 git clone --depth=1 https://github.com/SkylineUI-Devices/kernel_xiaomi_vayu.git -b fourteen kernel/xiaomi/vayu
+git clone https://github.com/dakkshesh07/Kprofiles.git kernel/xiaomi/vayu/drivers/misc/kprofiles
 echo 'Done'
 
 echo 'Cloning the common dt'
