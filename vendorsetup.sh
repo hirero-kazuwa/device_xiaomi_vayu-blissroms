@@ -12,7 +12,7 @@ echo 'Cloning the sources'
 
 echo 'Cloning the kernel'
 # Kernel
-git clone --depth=1 https://github.com/hirero-kazuwa/kernel_xiaomi_vayu-ex -b A14 kernel/xiaomi/vayu
+git clone --depth=1 https://github.com/SkylineUI-Devices/kernel_xiaomi_vayu.git -b fourteen kernel/xiaomi/vayu
 echo 'Done'
 
 echo 'Cloning the common dt'
