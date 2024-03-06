@@ -5,7 +5,6 @@ rm -rf device/xiaomi/sm8150-common
 rm -rf vendor/xiaomi
 rm -rf kernel/xiaomi
 rm -rf vendor/qcom/opensource/vibrator
-
 echo 'Done'
 
 echo 'Cloning the sources'
@@ -25,6 +24,10 @@ echo 'Cloning the vendor'
 # Vendor
 git clone https://github.com/ProjectElixir-Devices/vendor_xiaomi_vayu.git -b A14 vendor/xiaomi
 echo 'Done'
+
+echo 'Cloning the miuicamera'
+# MiuiCamera
+git clone https://gitlab.com/dogpoopy/vendor_xiaomi_vayu-miuicamera.git vendor/xiaomi/vayu-miuicamera
 
 echo 'Cloning the Vibrator'
 # Vibrator
