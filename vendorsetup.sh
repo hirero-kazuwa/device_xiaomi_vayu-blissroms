@@ -4,6 +4,7 @@ echo 'Starting vendorsetup processes needed for your device'
 rm -rf device/xiaomi/sm8150-common
 rm -rf vendor/xiaomi
 rm -rf kernel/xiaomi
+rm -rf vendor/qcom/opensource/vibrator
 
 echo 'Done'
 
@@ -22,6 +23,11 @@ echo 'Done'
 echo 'Cloning the vendor'
 # Vendor
 git clone https://github.com/ProjectElixir-Devices/vendor_xiaomi_vayu.git -b A14 vendor/xiaomi
+echo 'Done'
+
+echo 'Cloning the Vibrator'
+# Vibrator
+git clone --depth=1 https://github.com/PixelExperience/vendor_qcom_opensource_vibrator vendor/qcom/opensource/vibrator
 echo 'Done cloning the sources'
 
 echo 'GOOD LUCK FOR BUILDING'
