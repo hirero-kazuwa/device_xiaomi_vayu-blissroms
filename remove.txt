@@ -1,0 +1,3 @@
+device/xiaomi/sm8150-common
+vendor/xiaomi
+kernel/xiaomi
