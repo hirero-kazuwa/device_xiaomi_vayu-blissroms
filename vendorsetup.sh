@@ -27,7 +27,8 @@ echo 'Done'
 
 echo 'Cloning the miuicamera'
 # MiuiCamera
-git clone https://gitlab.com/dogpoopy/vendor_xiaomi_vayu-miuicamera.git vendor/xiaomi/vayu-miuicamera
+git clone https://github.com/hirero-kazuwa/vendor_xiaomi_vayu-miuicamera-elixir.git vendor/xiaomi/vayu-miuicamera
+echo 'Done'
 
 echo 'Cloning the Vibrator'
 # Vibrator
